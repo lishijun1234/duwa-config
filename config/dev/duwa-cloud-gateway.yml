@@ -26,5 +26,6 @@ spring:
           enabled: true
         health-check-url: ${spring.cloud.client.ip-address}:${server.port}
   redis:
-    host: 10.0.0.203
+    host: 10.88.247.103
     port: 6379
+    password: 12345!@#$%
